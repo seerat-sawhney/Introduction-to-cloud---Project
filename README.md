@@ -61,6 +61,7 @@ TechX will leverage the following Azure tools and services (Gudimetla Sandeep, 2
 #### 4.1.2 Design Cloud Architecture:
 - Design a cloud-based network infrastructure using **Azure Virtual Networks (VNets)** for secure, isolated environments. Use of subnets, network security groups (NSGs), and **Azure Firewall** to ensure secure connectivity.
 - Hybrid networking options using **VPN Gateway** or **ExpressRoute** to ensure secure and high-speed connectivity between on-premise and Azure environments.
+ ![alt text](P3.png)
 
 *Figure shows the proposed cloud networking for Tech-X.*
 
@@ -69,12 +70,14 @@ TechX will leverage the following Azure tools and services (Gudimetla Sandeep, 2
 #### 4.2.1 Database Migration:
 - Migrate on-premise MySQL databases to **Azure Database for MySQL** using **Azure Database Migration Service (DMS)** (Boddapati et al., 2024). This service handles schema conversion, data migration, and synchronization to minimize downtime during the transition.
 - TechX’s mission-critical databases will be moved to **Azure SQL Database**, a fully managed service offering high availability, scalability, and security features.
+ ![alt text](P4.png)
 
 *Figure shows the proposed database migration.*
 
 #### 4.2.2 Storage Migration:
 - Migrate large datasets (e.g., application logs, backups, and archives) from on-premise NAS to **Azure Blob Storage**. This will provide scalable, cost-efficient storage with multiple access tiers (hot, cool, and archive) (Valiramani & Microsoft Corporation, 2024).
 - For large-scale data transfers, **Azure Data Box** can be used to physically transfer data to Azure when network bandwidth is limited.
+ ![alt text](P5.png)
 
 *Figure shows the proposed storage migration.*
 
@@ -83,17 +86,18 @@ TechX will leverage the following Azure tools and services (Gudimetla Sandeep, 2
 #### 4.3.1 Lift-and-Shift (Rehost)
 - Move on-premise applications like legacy CRM and ERP systems directly to **Azure Virtual Machines (VMs)** with minimal changes. These applications will benefit from Azure’s flexibility and scalability (Valiramani et al., 2024).
 - TechX’s on-premise email servers will also be moved to Azure VMs to maintain operations during the migration phase.
-
+ 
+ ![alt text](P6.png)
 *Figure shows the proposed application migration.*
 
 #### 4.3.2 Refactor Applications
 - Refactor monolithic applications, such as TechX’s e-commerce platform, by splitting them into microservices. Each microservice will be containerized using Docker and orchestrated using **Azure Kubernetes Service (AKS)** for enhanced scalability and management (Muzumdar, Bhosale, Basyal, & Kurian, 2024).
 - Use **Azure App Services** for web-based applications that require auto-scaling and PaaS management.
-
+ ![alt text](P7.png)
 *Figure shows the proposed refactoring of monolithic applications.*
 
 ### Migrated HLD
-
+ ![alt text](P8.png)
 *Figure shows the HLD of migrated Tech-X setup.*
 
 #### Networking (Azure VPN Gateway, Azure Firewall, Azure Virtual Network)
@@ -221,12 +225,12 @@ Effective resource optimization is essential for minimizing cloud costs, improvi
 - **Set up Azure Auto-Scale** for virtual machines and Kubernetes clusters to handle varying workloads without manual intervention, ensuring optimal performance during traffic spikes.
 
 # 9. Risk Management and Mitigation Strategies
-
+ ![alt text](P9.png)
 Figure shows the risk mitigation strategies for TechX.  
 The key migration challenges include data migration delays, application downtime, network connectivity, and cost overruns. To mitigate data transfer delays, Azure Data Box and Azure DMS are utilized for efficient data migration with minimal downtime. Blue/Green Deployment and Azure Traffic Manager are implemented to ensure seamless application traffic routing and minimize downtime. ExpressRoute offers high-throughput, low-latency connectivity to Azure, overcoming network latency and bandwidth limitations. To avoid cost overruns, Azure Cost Management tools are used to monitor, alert, and optimize cloud spending, ensuring proper provisioning and budget control during migration (Gluckd, 2024).
 
 # 10. Benefits of Cloud Migration with Azure
-
+ ![alt text](P10.png)
 Figure explains the benefits of using Azure Cloud Services.  
 Azure offers significant benefits for TechX, including cost savings through a pay-as-you-go model, scalable resources that adjust based on demand, and enhanced disaster recovery with automated failover to ensure business continuity. Its built-in security features, such as encryption and advanced threat protection, safeguard against cyber threats while ensuring compliance with regulatory standards. These capabilities help TechX reduce operational costs, improve performance, and ensure a secure and resilient IT environment (Madasu, n.d.).
 
