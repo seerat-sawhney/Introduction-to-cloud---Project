@@ -1,6 +1,8 @@
 # Introduction-to-cloud--Project
 # On Premise to Cloud - Technical Report
 
+     ![alt text](s1.png)
+     
 # TechX Cloud Migration Strategy
 
 ## 1. Executive Summary
