@@ -1,8 +1,7 @@
 # Introduction-to-cloud--Project
 # On Premise to Cloud - Technical Report
 
-     ![alt text](s1.png)
-     
+         
 # TechX Cloud Migration Strategy
 
 ## 1. Executive Summary
@@ -14,6 +13,8 @@ TechX, a mid-sized technology company, aims to migrate its on-premise IT infrast
 TechX, a mid-sized technology company, operates using on-premise IT infrastructure to support its current business operations. The infrastructure comprises VMware ESXi virtualized physical servers, Network-Attached Storage (NAS) and Direct-Attached Storage (DAS), MySQL databases, and monolithic on-premise-hosted applications. Networking relies on physical routers, switches, and firewalls. As the company experiences growth, it aims to enhance scalability, reduce operational costs, and improve overall efficiency to better align with its strategic goals.
 
 #### On-prem HLD
+ ![alt text](P1.png)
+
 
 *Figure shows the on-premise setup of Tech-X.*
 
