@@ -19,6 +19,7 @@ TechX, a mid-sized technology company, operates using on-premise IT infrastructu
 *Figure shows the on-premise setup of Tech-X.*
 
 TechX currently operates with the following setup:
+ ![alt text](P2.png)
 
 To address these limitations, TechX plans to migrate to the cloud to leverage advanced features like elasticity, cost-efficiency, and improved reliability. The goal is to modernize the IT landscape, minimize operational risks, and support the company’s growth trajectory while ensuring minimal disruption to ongoing business processes (Sairam Madasu, n.d.).
 
